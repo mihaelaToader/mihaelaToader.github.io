@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta  charset="UTF-8">
+	<script src="script3.js"></script>
+    <title>JS</title>	
+	<style>
+		.container{
+			margin-left:30%;
+
+			position:absolute;
+
+		}
+		h2{
+			text-align:center;
+		}
+		.list{
+			width: 385px;
+			background: #716F71;
+			border-radius: 4px;
+			box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			padding:2px;
+			align: center;
+			margin-bottom:20px;
+		}
+		.elem {
+			height: 70px;
+			width: 80px;
+			margin:5px;
+			padding-left:6px;
+			background: burlywood;
+			font-size:35px;
+			color: black;
+			border-radius: 5px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+			
+		}
+		a{
+			color:burlywood;
+
+
+		}
+	</style>
+	
+
+</head>
+<body>
+
+<div  class="container">
+    <h2>MEMORY GAME</h2>
+	<div class="list" id="list-elem" >
+		<a href="javascript:card(0)" class="link"><div class="elem" id="0"></div></a>
+		<a href="javascript:card(1)" class="link"><div class="elem" id="1"></div></a>
+		<a href="javascript:card(2)" class="link"><div class="elem" id="2"></div></a>
+		<a href="javascript:card(3)" class="link"><div class="elem" id="3"></div></a>
+		<a href="javascript:card(4)" class="link"><div class="elem" id="4"></div></a>
+		<a href="javascript:card(5)" class="link"><div class="elem" id="5"></div></a>
+		<a href="javascript:card(6)" class="link"><div class="elem" id="6"></div></a>
+		<a href="javascript:card(7)" class="link"><div class="elem" id="7"></div></a>
+		<a href="javascript:card(8)" class="link"><div class="elem" id="8"></div></a>
+		<a href="javascript:card(9)" class="link"><div class="elem" id="9"></div></a>
+		<a href="javascript:card(10)" class="link"><div class="elem" id="10"></div></a>
+		<a href="javascript:card(11)" class="link"><div class="elem" id="11"></div></a>
+		<a href="javascript:card(12)" class="link"><div class="elem" id="12"></div></a>
+		<a href="javascript:card(13)" class="link"><div class="elem" id="13"></div></a>
+		<a href="javascript:card(14)" class="link"><div class="elem" id="14"></div></a>
+		<a href="javascript:card(15)" class="link"><div class="elem" id="15"></div></a>
+
+
+	</div>
+
+	<b style="font-size:20px;"> MATCHES:</b>
+	<b style="font-size:20px;" id="matches">0</b>
+</div>
+</body>
